@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MemSweep Support</title>
+<meta name="description" content="Support for the MemSweep iOS app.">
+
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #f4faf5;
+  --panel: #ffffff;
+  --text: #152015;
+  --muted: #516251;
+  --border: #d6e6d8;
+  --accent: #2d6b3f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d120e;
+    --panel: #141b15;
+    --text: #edf4ed;
+    --muted: #b6c4b7;
+    --border: #283329;
+    --accent: #8fd0a0;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font: 16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 48px 20px 80px;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: clamp(2rem,4vw,2.8rem);
+  line-height: 1.1;
+}
+
+h2 {
+  margin: 0 0 12px;
+  font-size: 1.15rem;
+}
+
+p { margin: 0 0 12px; }
+
+.lede {
+  max-width: 62ch;
+  color: var(--muted);
+  font-size: 1.04rem;
+}
+
+section {
+  margin-top: 16px;
+  padding: 24px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+}
+
+a { color: var(--accent); }
+
+footer {
+  margin-top: 20px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+</style>
+</head>
+
+<body>
+<main>
+
+<header>
+<p class="eyebrow">Support</p>
+<h1>MemSweep</h1>
+
+<p class="lede">
+MemSweep is a local-first photo review app that helps you rediscover memories and
+clean up your camera roll one swipe at a time.
+</p>
+
+<p>If you need help, want to report a bug, or have feedback about the app, you can contact support below.</p>
+</header>
+
+<section>
+<h2>Contact Support</h2>
+
+<p>
+For help with MemSweep, bug reports, or general questions, email:
+</p>
+
+<p>
+<a href="mailto:support@memsweep.com">support@memsweep.com</a>
+</p>
+
+<p>
+When reporting a bug, including the device model and iOS version can help diagnose the issue faster.
+</p>
+</section>
+
+<section>
+<h2>Frequently Asked Questions</h2>
+
+<p><strong>Does MemSweep collect or upload my data?</strong><br>
+No. MemSweep runs entirely on your device. The app has no accounts, servers, analytics, or tracking.</p>
+
+<p><strong>Can I recover a photo after confirming delete?</strong><br>
+Usually yes. Deleted photos move to the Photos app’s Recently Deleted album for up to 30 days.</p>
+
+<p><strong>What are Pending Deletes?</strong><br>
+Swiping left adds a photo to Pending Deletes. Nothing is removed until you review and confirm the batch.</p>
+
+<p><strong>Does MemSweep show my entire photo library?</strong><br>
+Yes, except when using Limited Photos access, hidden items, or iCloud items that could not be retrieved.</p>
+
+<p><strong>Can I undo a swipe?</strong><br>
+Yes. The last 6 swipes can be undone while you remain in the session.</p>
+
+<p><strong>What happens when I swipe right?</strong><br>
+Swipe right means keep. Behavior varies by mode, but the photo will not be marked for deletion.</p>
+
+<p><strong>Does MemSweep require internet?</strong><br>
+No. Internet is only needed for purchases or viewing items stored in iCloud.</p>
+
+<p><strong>How do I report a problem?</strong><br>
+Open Settings in the app and choose Report Bug, or email 
+<a href="mailto:support@memsweep.com">support@memsweep.com</a>.
+</p>
+
+<p><strong>What happens if I uninstall the app?</strong><br>
+Local MemSweep data is removed, but your photo library remains unchanged. Purchases can be restored.</p>
+
+</section>
+
+<section>
+<h2>Privacy</h2>
+
+<p>
+MemSweep is designed with a privacy-first architecture. The app does not run its own servers,
+does not track users, and does not transmit photo data off the device.
+</p>
+
+<p>
+Read the full privacy policy:
+</p>
+
+<p>
+<a href="/privacy.html">MemSweep Privacy Policy</a>
+</p>
+</section>
+
+<footer>
+MemSweep is an independent iOS app.
+</footer>
+
+</main>
+</body>
+</html>
